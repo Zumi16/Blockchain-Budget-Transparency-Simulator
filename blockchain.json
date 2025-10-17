@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "projectName": "IT week",
+    "budgetAmount": 3000,
+    "transactions": [
+      {
+        "item": "Transportation",
+        "cost": 300
+      },
+      {
+        "item": "Stalls",
+        "cost": 1200
+      },
+      {
+        "item": "Costumes",
+        "cost": 500
+      },
+      {
+        "item": "Food",
+        "cost": 300
+      }
+    ],
+    "totalSpent": 2300,
+    "remaining": 700,
+    "status": "Needs Review ⚠️",
+    "votes": {
+      "reallocate": 0,
+      "return": 1
+    },
+    "timestamp": "2025-10-17T05:47:01.417Z"
+  }
+]

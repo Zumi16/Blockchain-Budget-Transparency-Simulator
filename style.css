@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+h1 {
+  color: #00c896;
+  margin-bottom: 10px;
+}
+.container {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.2);
+}
+input,
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 5px;
+}
+input {
+  background: #333;
+  color: white;
+  width: 90%;
+}
+.tx-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tx-table th,
+.tx-table td {
+  padding: 8px;
+  text-align: left;
+}
+.tx-table input {
+  width: 90%;
+}
+.btn-add {
+  background: #00c896;
+  color: #111;
+  cursor: pointer;
+}
+.btn-remove {
+  background: #ff4d4d;
+  color: white;
+  cursor: pointer;
+}
+.btn-submit {
+  background: #00c896;
+  color: #111;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.block {
+  background: #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.vote-btn {
+  background: #555;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.vote-btn:hover {
+  background: #00c896;
+  color: #111;
+}

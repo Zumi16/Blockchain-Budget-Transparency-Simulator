@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blockchain Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Blockchain Budget Transparency</h1>
+  <div class="container">
+    <label>Project Name:</label>
+    <input type="text" id="projectName" placeholder="Enter project name" />
+
+    <label>Approved Budget (₱):</label>
+    <input type="number" id="budgetAmount" placeholder="Enter approved budget" />
+
+    <h3>Transactions:</h3>
+    <table class="tx-table" id="txTable">
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Amount (₱)</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="txBody">
+        <tr>
+          <td><input type="text" placeholder="e.g. Transportation" /></td>
+          <td><input type="number" placeholder="e.g. 500" /></td>
+          <td><button class="btn-remove" onclick="removeRow(this)">🗑️</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn-add" onclick="addRow()">➕ Add Row</button>
+    <button class="btn-submit" onclick="addBlock()">Add Budget Block</button>
+  </div>
+
+  <div id="blockchainDisplay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
